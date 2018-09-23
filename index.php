@@ -59,8 +59,8 @@ if(isset($_GET['url']) && $_GET['url'] != ""){
     @$myObj->error = true;
     $myObj->msg = "there is no youtube link";
     
-    $myObj->madeBy = "El-zahaby";
-    $myObj->instagram = "egy.js";
+    $myObj->madeBy = "Alkhoarizmy";
+    $myObj->line = "alkhoarizmy";
     $myJSON = json_encode($myObj,JSON_PRETTY_PRINT);
     echo $myJSON;
 }
