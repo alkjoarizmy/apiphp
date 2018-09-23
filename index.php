@@ -28,8 +28,8 @@ if(isset($_GET['url']) && $_GET['url'] != ""){
             }
             $g[]=$h;
             $g[0]['error'] = true;
-            $g[0]['instagram'] = "egy.js";
-            $g[0]['apiMadeBy'] = 'El-zahaby';
+            $g[0]['line'] = "alkhoarizmy";
+            $g[0]['apiMadeBy'] = 'Alkhoarizmy';
         echo json_encode($g,JSON_PRETTY_PRINT);
         
     }else{
